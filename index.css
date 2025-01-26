@@ -4,6 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  overflow: hidden;
   background-color: #191919;
   background-image: url(assets/botpress-texture.svg);
   background-position: top;
