@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #191919;
+  background-image: url(assets/botpress-texture.svg);
+  background-position: top;
+  background-size: auto;
+  background-repeat: repeat;
+  background-size: 900px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 1174px;
+  height: 707px;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 17%;
+  left: 20%;
+  z-index: 10;
+}
